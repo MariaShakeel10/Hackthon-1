@@ -1,0 +1,51 @@
+@font-face {
+    font-family: robot;
+    src: url(./font/Roboto-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.button-1 {
+    border: 2px solid #4776E6;
+}
+.button-1:hover {
+    color: white;
+    background: rgb(71, 118, 230);
+    background: linear-gradient(90deg, rgba(71, 118, 230, 1) 35%, rgba(142, 84, 233, 1) 100%)
+}
+
+.head1 {
+    font-family: robot;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 60.94px;
+    text-align: left;
+    color: #31135E;
+}
+
+.free {
+    color: #8E54E9;
+}
+
+.text2 {
+    font-family: robot;
+    line-height: 26px;
+}
+
+.btn-2 {
+    background: rgb(71, 118, 230);
+    background: linear-gradient(90deg, rgba(71, 118, 230, 1) 35%, rgba(142, 84, 233, 1) 100%);
+    color: white;
+    border: none;
+}
+.btn-2:hover {
+    color: #31135E;
+}
+.bg-color {
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(233,242,252,1) 41%);
+}
